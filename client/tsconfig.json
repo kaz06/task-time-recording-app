@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#app": ["./node_modules/nuxt/dist/app"],
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+    },
+    "types": ["nuxt", "@types/node"]
+    
+  },
+  "include": ["**/*.ts", "**/*.vue", "types.d.ts"],
+}
